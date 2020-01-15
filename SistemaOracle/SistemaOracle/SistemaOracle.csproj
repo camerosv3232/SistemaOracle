@@ -128,6 +128,7 @@
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="HomeAdmin.aspx" />
     <Content Include="HomeNormal.aspx" />
+    <Content Include="pruebaGit.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
@@ -204,6 +205,13 @@
       <DependentUpon>HomeNormal.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="pruebaGit.aspx.cs">
+      <DependentUpon>pruebaGit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pruebaGit.aspx.designer.cs">
+      <DependentUpon>pruebaGit.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
